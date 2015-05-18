@@ -1,0 +1,59 @@
+# Site settings
+title: Keeping It Classless
+
+# Need to make sure you're using all the options in this config file that you want to
+# avatar:
+
+description: Perspectives On The Intersection of Networking and Software Development
+baseurl: "" # the subpath of your site, e.g. /blog/
+host: 192.168.60.50
+url: "http://192.168.60.50:4000/" # the base hostname & protocol for your site
+permalink: /:year/:month/:title/
+twitter_username: mierdin
+github_username:  mierdin
+
+highlighter: pygments
+# Build settings
+markdown: kramdown
+
+# from http://github.com/dbtek/dbyll
+
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+
+# gems: [TweetTag]
+gems:
+  - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Keeping It Classless
+
+author:
+  name: Matt Oswalt
+  email_md5: cd081513e89145459dc9f111b347d015
+  github: mierdin
+  twitter: mierdin
+  youtube: keepingitclassless
+  facebook: keepingitclassless
+  linkedin: oswaltmatt
+  bio: |
+    Matt Oswalt is an all-around technology nerd, currently focusing on networking,
+    software development, and everything in between. He is at his happiest in front
+    of a keyboard, next to a brewing kettle, or wielding his silo-smashing sledgehammer.
+    He spends his days diving deep into the intersection of networking and software,
+    and likes to blog about his experiences when he comes up for air. You can follow him on
+    <a href="http://twitter.com/mierdin" target="_blank">Twitter</a>
+    or <a href="https://www.linkedin.com/in/oswaltmatt" target="_blank">LinkedIN</a>.
+
+rss_path: feed/
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
