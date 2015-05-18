@@ -6,8 +6,8 @@ title: Keeping It Classless
 
 description: Perspectives On The Intersection of Networking and Software Development
 baseurl: "" # the subpath of your site, e.g. /blog/
-host: 192.168.60.50
-url: "http://192.168.60.50:4000/" # the base hostname & protocol for your site
+host: keepingitclassless.net
+url: "http://keepingitclassless.net/" # the base hostname & protocol for your site
 permalink: /:year/:month/:title/
 twitter_username: mierdin
 github_username:  mierdin
