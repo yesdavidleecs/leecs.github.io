@@ -201,7 +201,7 @@ Bird seems to be the ideal routing software for scripting-savvy network admins. 
 
 I wanted to keep this post to a "top three" kind of thing, but wanted to call out some others that I found.
 
-- [OpenBGPD](http://www.openbgpd.org/) is an interesting project, especially if you're a FreeBSD fan.
+- [OpenBGPD](http://www.openbgpd.org/) is an interesting project, especially if you're a BSD fan.
 - [Bagpipe-BGP](https://github.com/Orange-OpenSource/bagpipe-bgp) is a project loosely associated with OpenStack Neutron aimed at providing BGP-based VPN services (i.e. eVPN) to virtual machines. Check out [this presentation](http://www.slideshare.net/ThomasMorin1/neutron-and-bgp-vpns-with-bagpipe) for additional info.
 
 # Conclusion
