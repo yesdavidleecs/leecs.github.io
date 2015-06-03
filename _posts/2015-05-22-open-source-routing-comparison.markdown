@@ -171,18 +171,18 @@ The configuration syntax for BIRD is closer to JunOS than IOS, but still very di
 
 This "function" can be referenced in the BGP configuration. See how I'm running the "export" command and referencing the above function in order to specify what I want to export.
 
-protocol bgp ToQuagga {
-    description "Quagga";
-    debug { states, events };
-    local as 131;
-    neighbor 192.168.31.11 as 111;
-    next hop self;
-    route limit 50000;
-    default bgp_local_pref 300;
-    import all;
-    export filter out_loopback1;
-    source address 192.168.31.13;
-}
+	protocol bgp ToQuagga {
+	    description "Quagga";
+	    debug { states, events };
+	    local as 131;
+	    neighbor 192.168.31.11 as 111;
+	    next hop self;
+	    route limit 50000;
+	    default bgp_local_pref 300;
+	    import all;
+	    export filter out_loopback1;
+	    source address 192.168.31.13;
+	}
 
 Since I'm no stranger to writing code, this works well for me. However, network operators accustomed to simpler mechanisms for doing simple stuff like advertising a network may find this a bit cumbersome.
 
