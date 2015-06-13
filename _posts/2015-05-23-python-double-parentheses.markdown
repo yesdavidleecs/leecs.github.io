@@ -64,3 +64,5 @@ In sequence, "funcwrapper(3)" is evaluated first, and it returns the "addone" fu
 Because we have a second pair of parenthesis (2), this ends up being the parameter to the embedded "addone" function, which means that x is set to 2.
 
 Therefore, 2 + 3 + 1 = 6.
+
+> As pointed out [in the comments](http://keepingitclassless.net/2015/05/python-double-parentheses/#comment-2069279567) - this whole concept is commonly referred to as a "closure", and it is most often used to implement decorators.
