@@ -90,7 +90,7 @@ I view ExaBGP as a conduit between an organization's network and development tea
 There are some caveats you should be aware of:
 
 - Obviously, this is only focused on BGP. This doesn't help you for OSPF, etc.
-- As far as I can tell, Exabgp does do any FIB manipulation (i.e. Linux kernel calls). So, you will likely be running ExaBGP out of the data plane (i.e. as a Route Reflector)
+- The documentation seems to indicate Exabgp does not do any FIB manipulation (i.e. Linux kernel calls). However, it's worth mentioning you'd probably want to use ExaBGP out of the data plane anyways (i.e. as a Route Reflector)
 
 So how does ExaBGP allow us to do these things? As mentioned on the [wiki](https://github.com/Exa-Networks/exabgp/wiki/Controlling-ExaBGP-:-_-README-first):
 
