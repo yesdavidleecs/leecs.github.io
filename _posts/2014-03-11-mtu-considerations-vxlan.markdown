@@ -52,7 +52,7 @@ So, the math that we care about is as follows:
 Of course, IPv6 changes the game a little bit. The IPv6 header is twice the size of the IPv4 header, so with IPv6 it looks like this:
 
     
-    Outer IPv4 Header ----------- 40 bytes    <==== assumes no extensions are used
+    Outer IPv6 Header ----------- 40 bytes    <==== assumes no extensions are used
     Outer UDP Header ------------  8 bytes
     VXLAN Header ----------------  8 bytes
     Inner Ethernet Frame ------ 1518 bytes (max)
