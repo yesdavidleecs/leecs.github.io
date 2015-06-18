@@ -48,7 +48,7 @@ AMQP runs over TCP which provides some level of reliability, but this connection
 
 I would like to demonstrate a quick consumer and producer using Python and Go, respectively. There are plenty of examples in the [RabbitMQ tutorial section](https://www.rabbitmq.com/getstarted.html) and those examples leverage an AMQP library called [Pika](https://pika.readthedocs.org/en/0.9.14/). I am instead using a library called [rabbitpy](http://rabbitpy.readthedocs.org/en/latest/), which I think is a bit easier to use than Pika (though it is specific to RabbitMQ).
 
-{% highlight python linenos %}
+{% highlight python %}
 import rabbitpy
 
 with rabbitpy.Connection('amqp://guest:guest@10.12.0.15:5672/%2f') as conn:
