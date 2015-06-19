@@ -120,6 +120,7 @@ There are some examples for RabbitMQ in Go on their [Github profile](https://git
 	            Body:        []byte(body),
 	        })
 	    failOnError(err, "Failed to publish a message")
+	}
 
 We can run our Go program using "go run", and our already-running Python program will provide us the following info:
 
