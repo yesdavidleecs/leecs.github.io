@@ -103,7 +103,7 @@ Look back at the packet capture for the solicitation message, and you'll notice 
 
      33:33:ff:5c:7a:92
 
-Wireshark tells us that the first 24 bits, "33:33:FF" is the prefix to indicate the encapsulated packet is an IPv6 multicast. However, you'll notice that the last 24 bits is the same last 24 bits as both the IPv6 address on R1's Fa0/0 interface, and the resulting solicited-node address.
+Wireshark tells us that the first 24 bits, "33:33:FF" is the prefix to indicate the encapsulated packet is an IPv6 multicast. However, you'll notice that the last 24 bits is the same last 24 bits as both the IPv6 address on R2's Fa0/0 interface, and the resulting solicited-node address.
 
 Now that we've identified the mechanism used to limit broadcast frames, which is pretty cool in my opinion, we can finally see the response from R2 in the form of a Neighbor Advertisement message:
 
