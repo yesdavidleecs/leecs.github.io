@@ -34,7 +34,7 @@ I have a few examples of what I'm talking about (off the cuff, not an exhaustive
 - The recent [Ubuntu Fan](https://wiki.ubuntu.com/FanNetworking) announcement contains several references to "flat" networking (though admittedly they do admit this is an "illusion")
 - CoreOS' "flannel" uses [overlay networking](https://coreos.com/docs/cluster-management/setup/flannel-config/) to provide adjacency between containers. Though the abhorrent terms like "flat" are not explicitly used, this concept is presented as a first-class feature which in my mind is mostly the same thing.
 
-> I am **not** suggesting that these solutions are fundamentally flawed. I am **not** suggesting L2 domains in their various forms should be scrapped an available construct. I **am** saying that L2-adjacency shouldn't be viewed as a "given", because I'd argue that most cloud-native applications don't (or shouldn't) need it.
+> I am **not** suggesting that these solutions are fundamentally flawed. I am **not** suggesting L2 domains in their various forms should be scrapped an available construct. I **am** saying that L2-adjacency shouldn't be viewed as a "given", because I'd argue that most cloud-native applications don't (or shouldn't) need it. It is clear that there will always be use cases that warrant direct L2 connectivity, but this messaging as it stands today will result in tons of L2-dependent software that didn't need to be.
 
 
 # Does a Container-Driven Datacenter Need Overlays?
