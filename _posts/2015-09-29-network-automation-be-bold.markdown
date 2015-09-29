@@ -14,7 +14,7 @@ tags:
 
 I've had something on my mind concerning network automation, and I think it's worth mentioning it here.
 
-There's been a lot of talk - [https://github.com/Mierdin/nwkauto](including plenty from myself) - about using tools like Ansible for creating network configuration files; that is, text files that contain configurations for network devices, usually a list of CLI commands. And this is a great first step, certainly if you're new to network automation.
+There's been a lot of talk - [including plenty from myself](https://github.com/Mierdin/nwkauto) - about using tools like Ansible for creating network configuration files; that is, text files that contain configurations for network devices, usually a list of CLI commands. And this is a great first step, certainly if you're new to network automation.
 
 It's really not that hard to generate configurations. You can do it in about five lines of Python, or you can stick with that Excel spreadsheet powered by macros (you know who you are). I challenge anyone to tell me that Ansible is better at generating config templates than Excel. The reality is that it's not - and it's hardly attempting to be.
 
