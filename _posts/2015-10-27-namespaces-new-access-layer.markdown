@@ -21,7 +21,7 @@ When considering containers and how they connect to the physical network, it may
 
 # What is a Namespace?
 
-It's important to understand this concept, because containers are NOT simply "miniature virtual machines", and understanding namespaces the way a host will allocate resources for container workloads
+It's important to understand this concept, because containers are NOT simply "miniature virtual machines", and understanding namespaces is very important to conceptualizing the way a host will allocate various system resources for container workloads.
 
 Generally, namespaces are a mechanism by which a Linux system can isolate and provide abstractions for system resources. These could be filesystem, process, or network resources, just to name a few.
 
