@@ -53,6 +53,8 @@ The final book is still being put together, but here's a sneak peek of some of t
 
 > Note that this should not be interpreted as the final list, as this book is still a WIP. All of this is subject to change.
 
+I feel this represents a solid set of topics for providing network engineers with the tools to evolve their skills. Please let us know if you have any feedback here!
+
 # Talk to Us!
 
 If you sign up for the early access (and we hope you do) - you should be provided with an email address to reach us with feedback. Or, you can reach all of us on Twitter:
