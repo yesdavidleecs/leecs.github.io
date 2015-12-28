@@ -14,7 +14,7 @@ tags:
 - oreilly
 ---
 
-The networking industry is at a crossroads. In the past few years, we've seen a flurry of activity in the world of software-defined networking (SDN), but this has mostly just resulted in a bunch of new products. I don't feel that this has done anything to improve network operations. In fact, this has in many ways resulted in more complexity.
+The networking industry is at a crossroads. In the past few years, we've seen a flurry of activity in the world of software-defined networking (SDN), but this has mostly just resulted in a bunch of new products. I don't feel that this has done nearly enough to improve network operations. In fact, this has in many ways resulted in more complexity.
 
 What we desperately need more than shiny new products (hardware or software) is a better understanding of simple tools and open source software. We need to be willing to take more direct control over our infrastructure, instead of relying on a vendor and their support contracts to solve all our problems. While vendors should still serve a critical role in operating a network, I feel strongly that now more than ever, end-users have the power to really own their own management layer, and the roadmap for how their organizations offer network services to the teams that run (and in some cases develop) applications for the business.
 
