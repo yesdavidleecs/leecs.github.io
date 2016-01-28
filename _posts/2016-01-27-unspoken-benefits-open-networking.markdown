@@ -38,7 +38,7 @@ Dell recently announced their OS10 operating system, which is essentially Debian
 
 <div style="text-align:center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/iza1xF9Le0I" frameborder="0" allowfullscreen></iframe></div>
 
-This model is extremely common amongst open NOS projects (i.e. [Cumulus](http://www.openswitch.net/), [OpenSwitch](http://www.openswitch.net/), [Open Network Linux](https://opennetlinux.org/)). It's worth mentioning that none of these projects started with a previously closed-source, specialized operating system. By and large, the trend seems to be that vendors are starting with a known base (i.e. Debian), and are building on top. This just makes much more architectual sense than the specialized, closed path.
+This model is extremely common amongst open NOS projects (i.e. [Cumulus](https://cumulusnetworks.com/), [OpenSwitch](http://www.openswitch.net/), [Open Network Linux](https://opennetlinux.org/)). It's worth mentioning that none of these projects started with a previously closed-source, specialized operating system. By and large, the trend seems to be that vendors are starting with a known base (i.e. Debian), and are building on top. This just makes much more architectual sense than the specialized, closed path.
 
 # Modular == Stable, and Cost-Effective
 
