@@ -32,7 +32,7 @@ Right now, what's happening is that the software layer in networking is really s
 
 The question "would you position this software at the core of your network" is the wrong question for a few reasons. The first reason is a simple one - you should be running exhaustive tests on ANY infrastructure (HW and SW) that you place into a mission-critical role. That aside, it actually makes MORE sense to put widely used open source software into the core of my network than it would to use software that was made by a handful of engineers behind closed doors. If you think about this long enough, you begin to wonder how we've tolerated the existing network software model for so long. The linux community is **way bigger** than a small group of engineers working on a closed OS. It is worth taking advantage of this.
 
-> Note that for this point, I am speaking mostly of platforms that don't require crazy features. The argument for specialized software makes more sense with  systems like load-balancers that require very specific optimizations (for instance a custom TCP stack) - those we're seeing alternative designs that erode even this model.
+> Note that for this point, I am speaking mostly of platforms that don't require crazy features. The argument for specialized software makes more sense with  systems like load-balancers that require very specific optimizations (for instance a custom TCP stack) - though we're seeing alternative designs that erode even this model.
 
 Dell recently announced their OS10 operating system, which is essentially Debian (Jessie) with some extra software installed. They took care to mention that they made no modifications to the provided kernel, and are providing value purely on top of this fundamental base.
 
