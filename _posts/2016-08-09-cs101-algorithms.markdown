@@ -337,7 +337,7 @@ Here are some great resources that you should definitely check out to take your 
 
 - [Algorithmic Toolbox on Coursera](https://www.coursera.org/learn/algorithmic-toolbox/lecture/TTWqe/binary-search) - I took this, and it is a great introduction to algorithms.
 - [Big O Cheat Sheet](http://bigocheatsheet.com/) - amazing collection of algorithms and their runtimes for quick reference
-- [Algorithm Visualizer](https://github.com/parkjs814/AlgorithmVisualizer)(There is a hosted site, check the URL on the Github page. It's not always working, but it's there)
+- [Algorithm Visualizer](https://github.com/parkjs814/AlgorithmVisualizer) - There is also a [hosted version](http://algo-visualizer.jasonpark.me/) of this, but it's not always online. Hopefully it is for you. VERY handy and FUN tool!
 
 There are many more details involved with the study of algorithms, including additional asymptotic notations in addition to "Big O", but this is a good starting point.
 
