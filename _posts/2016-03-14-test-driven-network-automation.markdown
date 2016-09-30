@@ -44,7 +44,7 @@ Either way, the goal is to have a mechanism by which we can define success of ch
 
 # Introducing ToDD: "Testing on Demand: Distributed!"
 
-I am pleased to announce that today I am open sourcing one of my personal efforts in this space. [I call it ToDD](https://github.com/Mierdin/todd), which stands for "Testing on Demand: Distributed!". I believe that ToDD offers a solution to just one piece of this problem, but a big one.
+I am pleased to announce that today I am open sourcing one of my personal efforts in this space. [I call it ToDD](https://github.com/toddproject/todd), which stands for "Testing on Demand: Distributed!". I believe that ToDD offers a solution to just one piece of this problem, but a big one.
 
 For those interested, ToDD is written in Go, and is being open-sourced today under an Apache v2 license.
 
@@ -397,7 +397,7 @@ ToDD is hardly a finished product. There are many things that I want to go work 
 - Enhanced application provisioning - thinking about integrating with Ansible, etc to be able to automatically install testing applications alongside testlets (similar to a Vagrant provisioner)
 - Assertions about Metrics. Right now ToDD just provides the test data, but I'm thinking about adding functionality to also make automated decisions based on metrics
 
-Please check out the [ToDD repository](https://github.com/Mierdin/todd), and in particular, CONTRIBUTING.md for guidelines on contributing, if you are inclined to do so.
+Please check out the [ToDD repository](https://github.com/toddproject/todd), and in particular, CONTRIBUTING.md for guidelines on contributing, if you are inclined to do so.
 
 I will be working in the next few weeks to transfer all of my informal documentation to a more readable, consumable format at the [ToDD ReadTheDocs site](https://todd.readthedocs.org/en/latest/). It's a bit empty right now, but check back frequently, as I'll be updating it very soon. If you feel something is missing, or wish to contribute, open a Github issue on the ToDD repo and we'll have a discussion about it.
 

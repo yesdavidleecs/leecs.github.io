@@ -25,7 +25,7 @@ Since the last Interop, my career has steered me towards a more direct approach 
 
 I am obviously very passionate about network automation, and have been very vocal about my belief that network automation only has a chance if it is done properly, which includes proper testing. I strongly believe that network automation can and should take place within the context of a proper CI pipeline, and testing is a big part of this. Network automation isn't just about saving time - it's about building a more resilient system.
 
-I recently open-sourced a personal project of mine called [ToDD](https://github.com/Mierdin/todd), which is a highly extensible framework for distributed capacity and connectivity testing. I have had a decent amount of feedback on this project thus far, and I'm looking forward to learning from this project in the future.
+I recently open-sourced a personal project of mine called [ToDD](https://github.com/toddproject/todd), which is a highly extensible framework for distributed capacity and connectivity testing. I have had a decent amount of feedback on this project thus far, and I'm looking forward to learning from this project in the future.
     
 At Interop, [I'm giving a talk on test-driven network automation](http://info.interop.com/lasvegas/scheduler/session/test-driven-network-automation), which will include a brief discussion about TDNA in general as well as a reasonably lengthy demonstration of ToDD, which is just one piece of this larger picture.. If you have questions about ToDD, or about testing in a network automation context, this presentation is for you.
 

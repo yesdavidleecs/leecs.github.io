@@ -22,7 +22,7 @@ tags:
 
 Now that [ToDD has been in the public arena for two months](https://keepingitclassless.net/2016/03/test-driven-network-automation/), one of the things I'm happiest about is the fact that testing in ToDD is totally flexible. Thanks to the concept of [testlets](https://todd.readthedocs.io/en/latest/testlets.html), ToDD doesn't have an opinion on the specifics of your tests - all of that logic is contained within the testlet.
 
-I believe there's real value in going further than simple "ping" tests when validating that your network is working as you expect. Customers aren't pinging you - they're using your applications. To that end, I have introduced [a new testlet](https://github.com/Mierdin/todd/blob/master/agent/testing/testlets/http) to the ToDD project that makes HTTP calls and reports on application-level metrics.
+I believe there's real value in going further than simple "ping" tests when validating that your network is working as you expect. Customers aren't pinging you - they're using your applications. To that end, I have introduced [a new testlet](https://github.com/toddproject/todd/blob/master/agent/testing/testlets/http) to the ToDD project that makes HTTP calls and reports on application-level metrics.
 
 There are some very real advantages to testing HTTP reachability instead of settling for simple "ping" tests. In addition to verifying network connectivity, HTTP testing also ensures that the web application is also up and able to produce the desired status code. We're also able to get some insight into performance at the application level.
 
