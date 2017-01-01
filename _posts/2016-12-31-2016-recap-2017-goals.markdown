@@ -36,6 +36,8 @@ While my focus since joining StackStorm has certainly included network automatio
 
 I am leaving this intentionally vague, because I don't know the future obviously, but I feel like the time is right for a change. I'll always have ties to networking, of course, and I intend on continuing to advocate for network automation, but I want to do more. Lately I've been getting more interested in the security industry - and I feel like there might be a gap for me to fill with my networking and software skillset. I'll be exploring this in greater detail in 2017.
 
+> I don't usually talk about personal goals for 2017, but I'd also like to pick up a piano and get back into playing jazz (hoping to find a group in Portland once I brush the rust off)
+
 
 # Conclusion
 
