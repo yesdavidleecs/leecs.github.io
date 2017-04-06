@@ -65,3 +65,4 @@ It's actually a bit encouraging that this has happened. This change represents a
 The migration of network services out of the network itself was inevitable, but it's absolutely not a death blow to the network engineer - it's a huge opportunity to move forward in a big way. There's a lot of work to do, but as [I wrote about last week](https://keepingitclassless.net/2017/03/learn-programming-or-perish/), the networking skill set is still sought after, and still needed in this new world.
 
 [I'll be speaking at Interop ITX](http://info.interop.com/itx/2017/scheduler/session/fundamental-principles-of-automation) in Vegas next month, about this, and more related topics. If you want to talk about automation, or just geek out about beer or food, I'd love to chat with you.
+
