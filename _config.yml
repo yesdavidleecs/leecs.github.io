@@ -53,7 +53,7 @@ author:
     or <a href="https://www.linkedin.com/in/oswaltmatt" target="_blank">LinkedIN</a>.
 
 rss_path: feed/
-categories_path: categories.html
-tags_path: tags.html
+categories_path: categories/
+tags_path: tags/
 
 BASE_PATH:
