@@ -11,6 +11,8 @@ url: "http://keepingitclassless.net/" # the base hostname & protocol for your si
 permalink: /:year/:month/:title/
 twitter_username: mierdin
 github_username:  mierdin
+plugins:
+  - jekyll-sitemap
 
 highlighter: rouge
 # Build settings
