@@ -29,6 +29,7 @@ exclude: ["README.md"] # files to exclude
 # gems: [TweetTag]
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 defaults:
   -
