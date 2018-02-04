@@ -28,7 +28,7 @@ Be keenly aware of the motivation(s) that drive your blogging. Write them down. 
 
 [![2287255370_db723a23e1_o]({{ site.url }}assets/2015/03/2287255370_db723a23e1_o.jpg)]({{ site.url }}assets/2015/03/2287255370_db723a23e1_o.jpg)
 
-At the top of my own personal list is the ability to be corrected by the technical leaders in a field. I wrote an article a while back on [Open vSwitch](http://keepingitclassless.net/2013/10/introduction-to-open-vswitch/). I had just started getting into the project and setting it up in my home lab, so I wrote a post about it, as is fairly common. I made an erroneous statement without realizing it. Ben Pfaff - the creator of Open vSwitch and just an overall brilliant guy (IMO one of the key minds responsible for the current revolution taking place in networking) left a comment constructively explaining my error and detailing how I may amend the problem.
+At the top of my own personal list is the ability to be corrected by the technical leaders in a field. I wrote an article a while back on [Open vSwitch](https://keepingitclassless.net/2013/10/introduction-to-open-vswitch/). I had just started getting into the project and setting it up in my home lab, so I wrote a post about it, as is fairly common. I made an erroneous statement without realizing it. Ben Pfaff - the creator of Open vSwitch and just an overall brilliant guy (IMO one of the key minds responsible for the current revolution taking place in networking) left a comment constructively explaining my error and detailing how I may amend the problem.
 
 I challenge you to find me a better way to learn a topic.
 
@@ -72,4 +72,4 @@ Also, don't be afraid to put a blog post down to conduct more research. Don't le
 
 In essence - blogging is a tool. Don't allow it to be something you have to do, but something you get to do. I don't personally recommend that you make it a means by which you can get more income through ad revenue, but you may go that path. I've found that using this medium as a release for technical energy pays for itself in intangible but far more valuable ways. Try to remind yourself of this when you encounter roadblocks.
 
-Please let me know if there is a roadblock that you are experiencing that I did not address, by commenting below, or reaching out to me on [Twitter](http://twitter.com/mierdin).
+Please let me know if there is a roadblock that you are experiencing that I did not address, by commenting below, or reaching out to me on [Twitter](https://twitter.com/mierdin).

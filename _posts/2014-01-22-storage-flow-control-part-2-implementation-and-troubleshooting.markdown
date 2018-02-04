@@ -24,7 +24,7 @@ tags:
 - ucs
 ---
 
-This will be a short follow-up to my [last post](http://keepingitclassless.net/2014/01/storage-flow-control-part-1-introduction) about the idea of Flow Control in storage protocols. As a review, the three main options in common use today are:
+This will be a short follow-up to my [last post](https://keepingitclassless.net/2014/01/storage-flow-control-part-1-introduction) about the idea of Flow Control in storage protocols. As a review, the three main options in common use today are:
 	
   * **IP Storage** - uses TCP windowing to provide feedback to client on how much data to send	
   * **Native Fibre Channel** - uses buffer credits (typically on a hop-by-hop basis when using N_port to F_port)

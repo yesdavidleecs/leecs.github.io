@@ -19,7 +19,7 @@ tags:
 - vss
 ---
 
-I had a great conversation with a coworker regarding the requirements for the In-Service Software Upgrade (ISSU) feature on Cisco switches. For this post, I'm using Nexus 5548UP switches as a distribution layer to my Cisco UCS environment, and at the core is sitting a pair of Catalyst 6500s, set up in a [VSS pair](http://keepingitclassless.net/2011/10/virtual-switching-system-on-cisco-catalyst-6500/).
+I had a great conversation with a coworker regarding the requirements for the In-Service Software Upgrade (ISSU) feature on Cisco switches. For this post, I'm using Nexus 5548UP switches as a distribution layer to my Cisco UCS environment, and at the core is sitting a pair of Catalyst 6500s, set up in a [VSS pair](https://keepingitclassless.net/2011/10/virtual-switching-system-on-cisco-catalyst-6500/).
 
 [![]({{ site.url }}assets/2012/09/diagram2.png)]({{ site.url }}assets/2012/09/diagram2.png)
 

@@ -28,7 +28,7 @@ If you're in networking, and have never heard of an API (Application Programming
 
 In this brave new world of Software-Defined Networking, it's clear that the crucial component of an SDN network is the communication between network elements - whether it's between a forwarding plane element and a controller, or between the controller and the applications or business logic.
 
-Thanks to a ton of help from Brent Salisbury ([@networkstatic](http://twitter.com/networkstatic)), I've been exploring OpenDaylight, a project created to move SDN adoption forward by creating a modular framework where control functions and business logic can be used as needed to create an SDN solution. The following diagram from [the OpenDaylight site](http://www.opendaylight.org/project/technical-overview) presents the traditional 3-tier architecture that is usually seen when talking about SDN products (at least so far):
+Thanks to a ton of help from Brent Salisbury ([@networkstatic](https://twitter.com/networkstatic)), I've been exploring OpenDaylight, a project created to move SDN adoption forward by creating a modular framework where control functions and business logic can be used as needed to create an SDN solution. The following diagram from [the OpenDaylight site](http://www.opendaylight.org/project/technical-overview) presents the traditional 3-tier architecture that is usually seen when talking about SDN products (at least so far):
 
 ![](http://www.opendaylight.org/sites/www.opendaylight.org/files/pages/images/hydrogen_diagram_-_final_0.jpg)
 
@@ -55,17 +55,17 @@ A REST API, or an API that is RESTful (adheres to the contrains of REST) is not 
 > The concept of REST was actually introduced by Roy Fielding [during his doctoral dissertation](http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm).
 
 These six constraints are:
-	
+
   1. **Client-Server** - This relationship must exist to maximize the portability of server-side functions to other platforms. With SDN, this usually means that completely different applications, even in different languages, can use the same functions in a REST API. The "applications" would be the client, and the controller would be the "server".
 
   2. **Stateless** - all state is kept client-side, the server does not retain any record of client state. This results in a much more efficient SDN controller.
-	
+
   3. **Caching** - just like "cookies" in your web browser, it's a good idea for the client to maintain a local copy of information that is commonly used. This improves performance and scalability, because it decreases the number of times a business application would have to query the network's REST API. Some functions should not be cacheable, however, and it is up to the REST API to define what should be cached.
 
   4. **Layered System** - many times a system of applications is composed of many parts. A REST API must be built in a way that a client interacts with it's neighbor (could be a server, load-balancer, etc.) and doesn't need to see "beyond" that neighbor. This idea is evident in the three-tiered architecture I showed above. By providing a REST API northbound, we don't have to teach our applications how to speak southbound languages like SNMP, SSH, Netconf, etc. etc.
-	
+
   5. **Uniform Interface** - no matter the information retrieved, the method by which it is presented is always consistent. For instance, a REST API function may return a value from a database. It does not return a database language, but likely some kind of open markup like JSON or XML (more on this later). That markup is also used when retrieving something ENTIRELY different, say the contents of a routing table. The information is different, but it is presented in the same way.
-	
+
   6. **Code-on-Demand** - this is actually an optional constraint of REST, since it might not work with some firewall configurations, but the idea is to transmit working code inside an API call. If none of an API's functions did what you wanted, but you knew how to make it so, you could transmit the necessary code to be run server-side.
 
 Again, the point of all of this is to maximize the usefulness of an API to provide services to a large number and variety of clients, which in the case of SDN is likely to be our business logic applications or cloud orchestration (like OpenStack).

@@ -30,7 +30,7 @@ As a result of this conversation, I was worried that others also believed that p
 
 # Continuous Integration for Networking?
 
-In software development, there is a strong desire to be able to make changes to the source code of an application at any time of the day, but with the safety and predicability necessary to do this to production code. [I wrote before](http://keepingitclassless.net/2015/01/continuous-integration-pipeline-network/) about the idea of using these practices to produce some of the same benefits with network infrastructure, and I still believe in those concepts today.
+In software development, there is a strong desire to be able to make changes to the source code of an application at any time of the day, but with the safety and predicability necessary to do this to production code. [I wrote before](https://keepingitclassless.net/2015/01/continuous-integration-pipeline-network/) about the idea of using these practices to produce some of the same benefits with network infrastructure, and I still believe in those concepts today.
 
 To power a continuous integration pipeline, a developer will likely write a set of unit tests and integration tests for their software. If you really think about it, these tests do more than just execute code. They exist as reference implementations of that software. A properly written test is really a description of a particular avenue through which someone might run the software being developed.
 

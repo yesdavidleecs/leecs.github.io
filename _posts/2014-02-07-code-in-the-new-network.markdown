@@ -24,7 +24,7 @@ I was inspired by many little things over the past few days to begin writing a p
 
 I've said before I know that most network engineers already write some kind of code - even if it's as simple as a snippet of VBA in an Excel spreadsheet to automatically convert a spreadsheet of configuration options into an actual running configuration. I believe I also said I thought that was pretty boring.
 
-The big gaping hole I intentionally left in my post last week titled "[Why Python?](http://keepingitclassless.net/2014/01/why-python/)" is going to be addressed in this post. What does the network engineer of the future - empowered with a brand new software-defined network infrastructure - look like?
+The big gaping hole I intentionally left in my post last week titled "[Why Python?](https://keepingitclassless.net/2014/01/why-python/)" is going to be addressed in this post. What does the network engineer of the future - empowered with a brand new software-defined network infrastructure - look like?
 
 This post is aimed primarily at discussing the changes that will come about in the next 5 years or so - not a far-fetched distant future conversation. I've been told on many occassions from close friends and colleagues that a lot of the discussions around SDN don't seem very relevant to the here and now. Hopefully after this post you'll have a better sense for the options we have (or will soon) to choose from when it comes to networking, automation, orchestration, and BREAKING DOWN THOSE UGLY SILOS!
 
@@ -35,9 +35,9 @@ In this model, actually writing any form code is optional. I have come across th
 I've done plenty of posts on both of these specific implementations, so the point I'm trying to make is that these engines will be fairly easy to use, in that the network engineer is not going to be wholly responsible for ensuring that policy is applied in the right places anymore. What we've been hearing from the server admins is that they want the network to be a consumable resource - well this does just that. The network guy will go in and define a profile
 
 By the way, this isn't really new - we've been doing this for years with a little concept called "port groups" or "port profiles".
-    
+
     1KVVSM# show run port-profile NFS
-    
+
     port-profile type vethernet NFS
       vmware port-group
       switchport mode access
@@ -69,7 +69,7 @@ In my experience, much of what I just said falls on deaf ears when it comes to n
 
 It also doesn't help when those that do have the time or the inclination ask "How can I get involved?" and the answer is "learn programming". Most engineers have basic scripting skillsets, but project like ODL and Openstack require a lot more than that. There are frameworks to adhere to, classes to build, interfaces to consume, methods to write. Many of these concepts are foreign to network engineers who have at most written or copied a script to automate one single task. In their eyes, they live deep within the big black section on the below chart (one of my favorite and most-referenced XKCD strips of all time):
 
-[![](http://imgs.xkcd.com/comics/is_it_worth_the_time.png)](http://xkcd.com/1205/)
+[![](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)](http://xkcd.com/1205/)
 
 Given the amount of time they currently have on their plate (none) and the amount of learning they feel like they'd have to do
 
