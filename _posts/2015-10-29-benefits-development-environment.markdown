@@ -84,7 +84,7 @@ First, we need to clone the MegaAwesome project. The project is hosted on Github
     git clone git@github.com:Mierdin/MegaAwesome.git
     cd MegaAwesome
 
-Once in the MegaAwesome directory, we can spin up a virtual machine very easily using Vagrant. 
+Once in the MegaAwesome directory, we can spin up a virtual machine very easily using Vagrant.
 
 [![]({{ site.url }}assets/2015/10/devenv2.png)]({{ site.url }}assets/2015/10/devenv2.png)
 
@@ -180,7 +180,7 @@ The key here is that this setup is automated with configuration artifacts presen
 Remember that the specific tools don't matter as much as the methodologies and concepts described here. I'll summarize some important ones:
 
 - Automate your dev environment setup, and make sure that any and all files needed for doing this are present in the repository.
-- Leverage automation tools that everyone can use. If you use a solution that no one on the team knows how to maintain, that's taking a step backwards. Find some common ground where **all** team members, regardless of skill level, can use and contribute to your automation workflow. 
+- Leverage automation tools that everyone can use. If you use a solution that no one on the team knows how to maintain, that's taking a step backwards. Find some common ground where **all** team members, regardless of skill level, can use and contribute to your automation workflow.
 - Spend time carefully qualifying what "production" means.  This automation is pointless if it doesn't get the environment to mirror prodution. Therefore, your development environment setup should constantly be re-evaluated and improved.
 
 I hope this post was helpful and that you now feel empowered to go build your own development environment automation workflow. These are all just suggestions - the concepts and methodology is what's important. Write your own story here.

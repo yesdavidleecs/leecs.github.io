@@ -18,13 +18,13 @@ tags:
 ---
 
 I had the opportunity this week to ascertain the feasibility of automating the provisioning of a full Flexpod. For reference, this is considering a "vanilla" Flexpod build:
-	
-  * Pair of Nexus 5ks	
+
+  * Pair of Nexus 5ks
   * Pair of Cisco UCS Fabric Interconnects (with a few chassis)
   * Netapp running ONTAP 7-Mode (I tested on FAS6070)
 
 Note that this also makes a few assumptions about the build.
-	
+
   * FC via Nexus 5000, no MDS
   * No existing vCenter integration or storage migration
 
@@ -37,7 +37,7 @@ Enter a blog post by Netapp engineer "ahohl", originally posted in October 2001:
 
 If your first thoughts were anything like mine, you thought:
 
-![](http://southparkstudios-intl.mtvnimages.com/shared/sps/images/shows/southpark/vertical_video/import/season_07/sp_0710_04_v6.jpg?width=480)
+![](https://southparkstudios-intl.mtvnimages.com/shared/sps/images/shows/southpark/vertical_video/import/season_07/sp_0710_04_v6.jpg?width=480)
 
 Now, once you recover, a few things to think about.
 
@@ -58,5 +58,3 @@ My definition of "configured" is somewhat minimal, but without having to do anyt
 I will be posting details of my first trial run, as well as any future development efforts I can commit to this at a later date, but I wanted to post my initial thoughts first. I'd like to continue to build out some of the features I've seen missing, such as fixing the Netapp networking section, as well as some really ambitious features that are no more than scratches on a napkin right now.
 
 Even with all the bugs, this guy put together something spectacular, and I really would hate to see it get buried in history.
-
-

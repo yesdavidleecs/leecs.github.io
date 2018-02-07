@@ -25,7 +25,7 @@ tags:
 - tfd
 ---
 
-[![](http://static.techfieldday.com/wp-content/uploads/2013/11/NFD-Logo-400x398.png)](http://static.techfieldday.com/wp-content/uploads/2013/11/NFD-Logo-400x398.png)
+[![](https://static.techfieldday.com/wp-content/uploads/2013/11/NFD-Logo-400x398.png)](http://static.techfieldday.com/wp-content/uploads/2013/11/NFD-Logo-400x398.png)
 
 I'm pleased to be invited back for the 7th installment of Networking Field Day in San Jose, CA from February 19th - 21st. This event is  part of a series of independent IT community-powered events that give the vendors an opportunity to talk about the products and ideas they've been working on, and receive honest and direct feedback from the delegates.
 
@@ -101,7 +101,7 @@ Knowing that Juniper is working on stuff like this means that I am absolutely ea
 
 ## Plexxi
 
-So I think my opinion regarding Plexxi is fairly well-known at this point, largely due to posts I've made about them in the past, [such as this one](http://keepingitclassless.net/2013/10/plexxi-optimized-workload-and-workflow/). Or quite frankly, because of bad ass videos like this:
+So I think my opinion regarding Plexxi is fairly well-known at this point, largely due to posts I've made about them in the past, [such as this one](https://keepingitclassless.net/2013/10/plexxi-optimized-workload-and-workflow/). Or quite frankly, because of bad ass videos like this:
 
 <div style="text-align: center"><iframe width="560" height="315" src="http://www.youtube.com/embed/-2DO_R_MRok" frameborder="0" allowfullscreen></iframe></div>
 
@@ -141,4 +141,4 @@ Tail-F does a few other things as well, but that's what stuck out for me, and I'
 
 I applaud Stephen and his crew for putting together this rock-solid vendor list. I think each and every one of them have the ability to knock it out of the park at NFD, and I look forward to listening and discussing the technologies we've all been power-pointing for the last few years.
 
-> I am attending Networking Field Day 7 as a community delegate. This means that the vendor(s) may pay for a certain portion of my travel arrangements, and may give out some small tchotkes, but no delegate is ever compensated for attending, or for writing any articles. Any opinions given are my own and are never influenced in any way. ([Full disclaimer here](http://keepingitclassless.net/disclaimers/))
+> I am attending Networking Field Day 7 as a community delegate. This means that the vendor(s) may pay for a certain portion of my travel arrangements, and may give out some small tchotkes, but no delegate is ever compensated for attending, or for writing any articles. Any opinions given are my own and are never influenced in any way. ([Full disclaimer here](https://keepingitclassless.net/disclaimers/))

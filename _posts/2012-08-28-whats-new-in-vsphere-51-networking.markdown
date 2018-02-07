@@ -146,4 +146,4 @@ Port groups now shrink/expand dynamically based on use. You should use static po
 
 This helps dump vmkernel core to a server on the network. Very useful when esxi has no local storage. I install a lot of Cisco UCS, and I'll admit that most installs still have local storage, but this is a nice feature to have going into 5.1, where boot-from-SAN and Autodeploy are gathering more popularity.
 
-Which features are you most excited about? I would like to do a deep-dive into one of these sections when I can get all of this set up in a lab - what would you like to see? Let me know in the comments, [or on twitter](http://twitter.com/mierdin).
+Which features are you most excited about? I would like to do a deep-dive into one of these sections when I can get all of this set up in a lab - what would you like to see? Let me know in the comments, [or on twitter](https://twitter.com/mierdin).

@@ -116,7 +116,7 @@ The overlay tunnels will terminate to a virtual interface (in VMware this is a V
 
 Let's explore one other design that's not possible today but would be **REALLY awesome if it did work in the future.**
 
-> Thanks to [Ivan Pepelnjak](http://twitter.com/ioshints) for helping me to wrap my head around some of these key design ideas when it comes to hypervisor integration with the network when we discussed overlay networking and specifically VMware NSX in [this episode of The Class-C Block podcast](http://classcblock.com/2013/09/05/show-11-vmware-nsx/). This section of this post would not be the same without it.
+> Thanks to [Ivan Pepelnjak](https://twitter.com/ioshints) for helping me to wrap my head around some of these key design ideas when it comes to hypervisor integration with the network when we discussed overlay networking and specifically VMware NSX in [this episode of The Class-C Block podcast](http://classcblock.com/2013/09/05/show-11-vmware-nsx/). This section of this post would not be the same without it.
 
 What if - instead of assigning an IP address to a virtual interface within the hypervisor, we could assign an IP address to each physical interface on the host?
 

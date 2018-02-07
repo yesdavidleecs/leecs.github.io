@@ -15,7 +15,7 @@ tags:
 
 In talking with folks about automation, the conversation almost always come around to "speed, speed, speed". It's easy to see why this is the first benefit that pops into mind - we've all spent gratuitous amounts of time doing repetitive, time-consuming tasks. It's obvious why the prospect of automating these tasks and getting the time back is such an attractive one, even though most of us that have tried know that this is an absolute reality:
 
-[![](http://imgs.xkcd.com/comics/automation.png)](http://imgs.xkcd.com/comics/automation.png)
+[![](https://imgs.xkcd.com/comics/automation.png)](http://imgs.xkcd.com/comics/automation.png)
 
 All kidding (but some.....seriousing?) aside, is speed the only benefit? In the realm of IT infrastructure, should we pursue automation only when [this other piece of brilliance](http://xkcd.com/1205/) tells us it's worth it?
 
@@ -39,7 +39,7 @@ In summary, **standardization** is one of the most important prerequisites of in
 
 Rather than have everyone touch infrastructure directly - taking all of their baggage into it - working through a software layer allows us to push our standard practices into code to be strictly enforced. The SMEs on a particular technology will come together once and agree on the best practices for their gear, push those standards into code (or infrastructure-as-code products like [Schprokits](http://www.schprokits.com/)), and call it a day. This must be something enforced at the cultural level, however, as you need the SMEs to provide this guidance to those writing/extending the tools, and you also need commitment that these tools will not be worked around (which defeats the whole automation project).
 
-> Software middleware can also help with garbage collection - things like [SAN zoning](http://keepingitclassless.net/2014/12/automating-san-zoning-schprokits/) and ACL entries will be more relevant because they're actively tracked. No more bloated configs.
+> Software middleware can also help with garbage collection - things like [SAN zoning](https://keepingitclassless.net/2014/12/automating-san-zoning-schprokits/) and ACL entries will be more relevant because they're actively tracked. No more bloated configs.
 
 Infrastructure predictability is a product of combining the right tools with cultural rigor and discipline. If you do not standardize and then automate the operations of your infrastructure, you're accruing technical debt. Someone will pay for that.
 
