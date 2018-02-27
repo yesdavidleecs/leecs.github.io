@@ -28,6 +28,6 @@ The big announcement today was obviously the release of Hydrogen - the first maj
 
 The live video stream should also be working during the recorded keynotes, [use this link to view](http://events.linuxfoundation.org/events/opendaylight-summit/program/live-video-stream) (I've been told this is IE-only...sorry, not my idea).
 
-After the summit finishes up tomorrow I'll be posting a more detailed summary of the event, but in the meantime please [follow me on Twitter](http://twitter.com/mierdin), and look for tweets containing the hashtag #ODsummit for somewhat-real-time updates.
+After the summit finishes up tomorrow I'll be posting a more detailed summary of the event, but in the meantime please [follow me on Twitter](https://twitter.com/mierdin), and look for tweets containing the hashtag #ODsummit for somewhat-real-time updates.
 
 This is such a great time to be in networking.

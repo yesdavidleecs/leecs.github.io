@@ -20,10 +20,10 @@ noun
 
 1. A type of networking where each node must not only capture and disseminate its own data, but also serve as a _relay_ for other nodes, that is, it must collaborate to propagate the data in the network.
 
-[![](http://upload.wikimedia.org/wikipedia/commons/8/8d/NetworkTopology-Mesh.png)](http://en.wikipedia.org/wiki/Mesh_networking)
+[![](https://upload.wikimedia.org/wikipedia/commons/8/8d/NetworkTopology-Mesh.png)](http://en.wikipedia.org/wiki/Mesh_networking)
 
 2. What happens to your screen doors when you get cats
 
 [![]({{ site.url }}assets/2011/10/TornScreen1.jpg)]({{ site.url }}assets/2011/10/TornScreen1.jpg)
 
-[Image and definition credit: Wikipedia](http://en.wikipedia.org/wiki/Mesh_networking)
+[Image and definition credit: Wikipedia](https://en.wikipedia.org/wiki/Mesh_networking)

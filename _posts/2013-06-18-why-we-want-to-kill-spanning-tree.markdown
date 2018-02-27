@@ -57,7 +57,7 @@ Fun Fact: IS-IS was chosen over OSPF for a few reasons, but a notable one is the
 
 Since TRILL operates by encapsulating the original Ethernet frame and "routing" it at Layer 2 intelligently, we don't need to rewrite our host networking stacks. Even unknown unicast addresses don't cause problems, because the TRILL LSDB has enough information to get the frame to where it needs to go. (we just care about getting to the last or egress rbridge). On top of a TRILL header, we have a completely new Ethernet frame on top of it all, where the addressing is done on a next-hop basis (sound a little like IP routing now?).
 
-[![](http://www.cisco.com/web/about/ac123/ac147/images/ipj/ipj_14-3/143_trill_fig08_lg.jpg)](http://www.cisco.com/web/about/ac123/ac147/images/ipj/ipj_14-3/143_trill_fig08_lg.jpg)
+[![](https://www.cisco.com/web/about/ac123/ac147/images/ipj/ipj_14-3/143_trill_fig08_lg.jpg)](http://www.cisco.com/web/about/ac123/ac147/images/ipj/ipj_14-3/143_trill_fig08_lg.jpg)
 
 ## Conclusion
 

@@ -19,9 +19,9 @@ Yet another recap post to follow up on [last year's](https://keepingitclassless.
 
 # 2015 Goal Recap
 
-First, let me recap some of the goals [I set for myself at the beginning of the year](http://keepingitclassless.net/2014/12/2014-recap-2015-goals/), and see how well I did.
+First, let me recap some of the goals [I set for myself at the beginning of the year](https://keepingitclassless.net/2014/12/2014-recap-2015-goals/), and see how well I did.
 
-**Network Automation Book** - [At this time last year](http://keepingitclassless.net/2015/12/training-next-generation-network-engineer/), I announced that I was working on a network automation book with Scott Lowe and Jason Edelman. This has certainly taken a bit more time than any of us would have liked, but we're very near the end. The three of us have had a very busy year, and there are very few things to do for this release. However, we have pushed several additional chapters to O'Reilly, so you can still read these via Safari.
+**Network Automation Book** - [At this time last year](https://keepingitclassless.net/2015/12/training-next-generation-network-engineer/), I announced that I was working on a network automation book with Scott Lowe and Jason Edelman. This has certainly taken a bit more time than any of us would have liked, but we're very near the end. The three of us have had a very busy year, and there are very few things to do for this release. However, we have pushed several additional chapters to O'Reilly, so you can still read these via Safari.
 
 **Open Source** - Given that [I now work for a company centered around an open source project](https://keepingitclassless.net/2016/10/new-automation-chapter-begins/), I'd say I definitely made a good move towards this goal. I also open sourced [ToDD](https://keepingitclassless.net/2016/03/test-driven-network-automation/) earlier this year, which has been steadily growing and becoming more stable over the last few months.
 

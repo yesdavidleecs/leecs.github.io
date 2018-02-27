@@ -15,7 +15,7 @@ tags:
 - ospf
 ---
 
-I've mentioned before the need for networks to be addressed in a very programmatic way. Very often, I've found the discussion is actually a lot less about "programming language" details and more about getting rid of the methodology of addressing the network as a mere "collection of boxes" (see "[Box Mentality](http://keepingitclassless.net/2014/05/evolution-network-programmability/)").
+I've mentioned before the need for networks to be addressed in a very programmatic way. Very often, I've found the discussion is actually a lot less about "programming language" details and more about getting rid of the methodology of addressing the network as a mere "collection of boxes" (see "[Box Mentality](https://keepingitclassless.net/2014/05/evolution-network-programmability/)").
 
 Instead, we have the ability to address the network as any developer would address the distributed components of an application. We acknowledge that networks are a distributed system - it's what makes them as scalable as they have been. However, it's important to understand we can address configuration and troubleshooting needs in a unified, automated way as well.
 
@@ -333,4 +333,4 @@ This post focused mostly on the topology-gathering portion, but with this inform
 
 Before all that, though, I wanted to focus on building the topology programmatically, in a way that represented the right methodology. Since I'm treating each "spine domain" separately, it would be a lot safer to make changes, since you can stop in between spine domains to verify the changes occurred in the right way.
 
-I've been nerding out with feedback and control systems lately, and this methodology should prove useful for driving additional actions on network configuration if the topology details were to change. Do you have a use case for me to try out? Leave a comment below, or on [Twitter](http://twitter.com/mierdin)!
+I've been nerding out with feedback and control systems lately, and this methodology should prove useful for driving additional actions on network configuration if the topology details were to change. Do you have a use case for me to try out? Leave a comment below, or on [Twitter](https://twitter.com/mierdin)!

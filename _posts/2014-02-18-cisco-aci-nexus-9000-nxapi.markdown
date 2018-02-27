@@ -166,7 +166,7 @@ These are merely custom data structure to describe a route prefix and the next-h
 
 Next we need to extract the data from this dictionary and create instances of the classes we just put out. I'll write two methods, one for each class type, and both are responsible for creating a class object based off of the information in the dictionary.
 
-> BIG thanks to [Kirk Byers](http://twitter.com/kirkbyers) for helping me write this out in the most efficient way.
+> BIG thanks to [Kirk Byers](https://twitter.com/kirkbyers) for helping me write this out in the most efficient way.
     
 {% highlight python linenos %}
 def process_nexthop(next_hop):

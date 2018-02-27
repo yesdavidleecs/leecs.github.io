@@ -17,9 +17,9 @@ tags:
 - Security
 ---
 
-A while back I did a post called [IPv6 Hacking - "thc-ipv6" Part 1](http://keepingitclassless.net/2011/05/new-blog-location-ipv6-hacking-thc-ipv6-part-1/) - it was, in fact, the first post here on Keeping It Classless. That post focused on the flood_router6 script, which unleashed a flood of IPv6 Router Advertisements (RAs) on a layer 2 network segment, bringing vulnerable operating systems like Windows 7 to their knees.
+A while back I did a post called [IPv6 Hacking - "thc-ipv6" Part 1](https://keepingitclassless.net/2011/05/new-blog-location-ipv6-hacking-thc-ipv6-part-1/) - it was, in fact, the first post here on Keeping It Classless. That post focused on the flood_router6 script, which unleashed a flood of IPv6 Router Advertisements (RAs) on a layer 2 network segment, bringing vulnerable operating systems like Windows 7 to their knees.
 
-![](http://siliconangle.com/files/2011/05/network-security-lock.jpg)
+![](https://siliconangle.com/files/2011/05/network-security-lock.jpg)
 
 The "fake_router6" script is another member of the "thc-ipv6" suite that grants a powerful weapon to a would-be attacker. This script takes a bit more work to perform correctly, in addition to a basic understanding of the network on which the attack is being performed.
 
@@ -38,7 +38,7 @@ I set up a free IPv6 tunnel, [courtesy of Hurricane Electric](http://tunnelbroke
 The "fake_router6" script essentially just sends out IPv6 RAs, and that's about it. Keep in mind that in order to perform a successful Man In The Middle attack, we need to keep the victim connected to network resources. Therefore, we need to turn our attacking device into a makeshift router, and we need to do it **before** we send out our RAs to direct traffic to us.
 
 We will need to forward all traffic to a legitimate router so that connectivity to and from the victim is maintained and they continue to do business as usual. First, we need to enable IPv6 forwarding on our BackTrack machine. In a terminal window, the following command will do just that:
-    
+
     sysctl -w net.ipv6.conf.all.forwarding=1
 
 This results in IPv6 forwarding (not IPv4) to be enabled on the machine. Keep in mind that this change does not persist after a reboot, though for the purposes of this attack, that doesn't matter.
@@ -52,7 +52,7 @@ Now, when we receive datagrams from the Vista client, we can forward them right 
 ## The Attack
 
 After the prep work, we're ready to start sending out our router advertisements, which will cause the clients' network traffic to be sent our way. In BackTrack 5, simply run the command:
-    
+
     fake_router6 eth0 1::/64
 
 (Note that on previous versions of BackTrack you might need to run from the directory "/pentest/spoofing/thc-ipv6")
@@ -76,7 +76,7 @@ Let's take a look at the results of the attack. First, a traceroute to Google's 
     .......
 
 And now during the attack:
-    
+
     C:>tracert 2001:4860:800f::93
       1     7 ms    <1 ms    <1 ms  fe80::c200:15ff:fe70:d68f
       2    <1 ms    <1 ms    <1 ms  2001:470:1f11:1240::1
