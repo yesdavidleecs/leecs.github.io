@@ -6,8 +6,8 @@ title: Keeping It Classless
 
 description: Perspectives On Networks, Automation, Systems, and Software Engineering
 baseurl: "" # the subpath of your site, e.g. /blog/
-host: keepingitclassless.net
-url: "https://keepingitclassless.net/" # the base hostname & protocol for your site
+host: yesdavidleecs.github.io
+url: "https://yesdavidleecs.github.io/leecs.github.io/" # the base hostname & protocol for your site
 permalink: /:year/:month/:title/
 twitter_username: mierdin
 github_username:  mierdin
