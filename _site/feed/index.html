@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Engineering Masterclass for Myself</title>
+		<description>Perspectives On Networks, Automation, Systems, and Software Engineering</description>
+		<link>https://keepingitclassless.net/</link>
+		<atom:link href="https://keepingitclassless.net/feed/" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Hello World - Welcome to My Blog!</title>
+				<description>&lt;h1 id=&quot;hello-world&quot;&gt;Hello World!&lt;/h1&gt;
+
+&lt;p&gt;Welcome to my blog! This is my first post, and I’m excited to share my thoughts and experiences with you.&lt;/p&gt;
+
+&lt;h2 id=&quot;about-this-blog&quot;&gt;About This Blog&lt;/h2&gt;
+
+&lt;p&gt;This blog is powered by &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, a static site generator that’s perfect for creating fast, secure, and easy-to-maintain blogs. It’s hosted on GitHub Pages, making it completely free and automatically deployed whenever I make changes.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use-this-blog&quot;&gt;How to Use This Blog&lt;/h2&gt;
+
+&lt;p&gt;If you’re interested in creating your own posts on this blog, here’s how it works:&lt;/p&gt;
+
+&lt;h3 id=&quot;creating-new-posts&quot;&gt;Creating New Posts&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;File Location&lt;/strong&gt;: All blog posts are stored in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts/&lt;/code&gt; directory&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;File Naming&lt;/strong&gt;: Posts must follow the naming convention: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-title.markdown&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Front Matter&lt;/strong&gt;: Each post must start with YAML front matter (the content between the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;---&lt;/code&gt; lines)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;post-structure&quot;&gt;Post Structure&lt;/h3&gt;
+
+&lt;p&gt;Here’s the basic structure of a blog post:&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Your&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Post&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Title&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;YYYY-MM-DD HH:MM:SS&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;category1&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;category2&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tag1&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tag2&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tag3&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;brief&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;your&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;post&quot;&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+
+&lt;span class=&quot;gh&quot;&gt;# Your Content Here&lt;/span&gt;
+
+Write your blog post content using Markdown syntax.
+
+&lt;span class=&quot;gu&quot;&gt;## Subheadings&lt;/span&gt;
+
+You can use various Markdown features:
+&lt;span class=&quot;p&quot;&gt;
+-&lt;/span&gt; &lt;span class=&quot;gs&quot;&gt;**Bold text**&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ge&quot;&gt;*Italic text*&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Links&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;https://example.com&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; Code blocks
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; Lists
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; And much more!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;publishing-posts&quot;&gt;Publishing Posts&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create your new post file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts/&lt;/code&gt; directory&lt;/li&gt;
+  &lt;li&gt;Add and commit your changes to git&lt;/li&gt;
+  &lt;li&gt;Push to the GitHub repository&lt;/li&gt;
+  &lt;li&gt;GitHub Pages will automatically build and deploy your blog&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;markdown-tips&quot;&gt;Markdown Tips&lt;/h3&gt;
+
+&lt;p&gt;This blog supports full Markdown syntax, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Headers&lt;/strong&gt; using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;##&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;###&lt;/code&gt;, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lists&lt;/strong&gt; using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Code blocks&lt;/strong&gt; using triple backticks&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Links&lt;/strong&gt; using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[text](url)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Images&lt;/strong&gt; using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;![alt text](image-url)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bold&lt;/strong&gt; using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**text**&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Italic&lt;/strong&gt; using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*text*&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;Ready to start blogging? Here are some ideas for your next post:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Share your thoughts on a topic you’re passionate about&lt;/li&gt;
+  &lt;li&gt;Write a tutorial or how-to guide&lt;/li&gt;
+  &lt;li&gt;Document your learning journey&lt;/li&gt;
+  &lt;li&gt;Review a book, tool, or technology&lt;/li&gt;
+  &lt;li&gt;Share your personal experiences and insights&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;contact--social&quot;&gt;Contact &amp;amp; Social&lt;/h2&gt;
+
+&lt;p&gt;Feel free to reach out if you have any questions about this blog or want to connect!&lt;/p&gt;
+
+&lt;p&gt;Happy blogging! 🎉&lt;/p&gt;
+</description>
+				<pubDate>Tue, 31 Dec 2024 07:00:00 -0800</pubDate>
+				<link>https://keepingitclassless.net/2024/12/hello-world/</link>
+				<guid isPermaLink="true">https://keepingitclassless.net/2024/12/hello-world/</guid>
+			</item>
+		
+	</channel>
+</rss>
