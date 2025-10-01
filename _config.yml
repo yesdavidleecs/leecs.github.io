@@ -5,9 +5,9 @@ title: Keeping It Classless
 # avatar:
 
 description: Perspectives On Networks, Automation, Systems, and Software Engineering
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/leecs.github.io" # the subpath of your site, e.g. /blog/
 host: yesdavidleecs.github.io
-url: "https://yesdavidleecs.github.io/leecs.github.io/" # the base hostname & protocol for your site
+url: "https://yesdavidleecs.github.io/leecs.github.io" # the base hostname & protocol for your site
 permalink: /:year/:month/:title/
 twitter_username: mierdin
 github_username:  mierdin
@@ -59,4 +59,4 @@ rss_path: feed/
 categories_path: categories/
 tags_path: tags/
 
-BASE_PATH:
+BASE_PATH: /leecs.github.io
