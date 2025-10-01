@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello World - Welcome to My Blog!"
-date: 2025-10-01 12:00:00
+date: 2025-10-01 08:00:00
 categories: [blog, welcome]
 tags: [welcome, getting-started, jekyll]
 description: "Welcome to my new blog! Learn how to use this Jekyll-powered blog and create your own posts."
