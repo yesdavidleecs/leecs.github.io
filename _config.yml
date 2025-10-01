@@ -39,21 +39,15 @@ defaults:
       title: Engineering Masterclass for Myself
 
 author:
-  name: Matt Oswalt
+  name: David Lee
   email_md5: cd081513e89145459dc9f111b347d015
-  github: mierdin
-  twitter: mierdin
-  youtube: keepingitclassless
-  facebook: keepingitclassless
-  linkedin: oswaltmatt
+  github: yesdavidleecs
+  twitter: 
+  youtube: 
+  facebook: 
+  linkedin: 
   bio: |
-    Matt Oswalt is an all-around technology nerd, currently focusing on networking,
-    software development, and everything in between. He is at his happiest in front
-    of a keyboard, next to a brewing kettle, or wielding his silo-smashing sledgehammer.
-    He spends his days diving deep into the intersection of networking and software,
-    and likes to blog about his experiences when he comes up for air. You can follow him on
-    <a href="https://twitter.com/mierdin" target="_blank">Twitter</a>
-    or <a href="https://www.linkedin.com/in/oswaltmatt" target="_blank">LinkedIN</a>.
+    David Lee is a software engineer passionate about learning and building great things.
 
 rss_path: feed/
 categories_path: categories/
