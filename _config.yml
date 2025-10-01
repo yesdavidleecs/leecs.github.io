@@ -13,6 +13,7 @@ twitter_username: mierdin
 github_username:  mierdin
 plugins:
   - jekyll-sitemap
+  - jekyll-paginate
 
 highlighter: rouge
 # Build settings
@@ -30,6 +31,7 @@ exclude: ["README.md"] # files to exclude
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
 defaults:
   -
